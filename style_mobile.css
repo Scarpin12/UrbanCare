@@ -1,0 +1,149 @@
+/* Estilos para Extra Small Devices (phones, até 600px) */
+@media (max-width: 600px) {
+    .cabecalho_principal {
+        padding: 0.5rem;
+    }
+
+    .menu_hamburger {
+        font-size: 1.5rem;
+        padding-right: 0.5rem;
+        display: block;
+    }
+
+    .menu_navegacao {
+        display: none;
+    }
+
+    .menu_navegacao.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 45px;
+        left: 0;
+        width: 100%;
+        background: var(--fundo-escuro);
+        padding: 0.5rem 0;
+    }
+
+    .menu_navegacao ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu_navegacao li {
+        margin: 0.3rem 0;
+    }
+
+    .menu_navegacao a {
+        font-size: 0.9rem;
+    }
+
+    .logo_img {
+        max-height: 30px;
+    }
+
+    section {
+        padding: 3rem 0.8rem 1.5rem;
+    }
+
+    #informações_desenvolvimento,
+    #faq {
+        padding-top: 4.5rem;
+    }
+
+    .grade {
+        grid-template-columns: 1fr;
+        max-width: 600px;
+    }
+
+    .cartao {
+        padding: 1.2rem;
+    }
+
+    .contato_info {
+        grid-template-columns: 1fr;
+    }
+
+    .cabecalho h1 {
+        font-size: 2rem;
+    }
+
+    .cabecalho p {
+        font-size: 1.2rem;
+    }
+
+    #cadastro-urban-care .cartao {
+        padding: 1rem;
+    }
+
+    .form-group input {
+        padding: 0.6rem;
+    }
+
+    .botao_whatsapp {
+        padding: 0.6rem 1rem;
+    }
+}
+
+/* Estilos para Small Devices (portrait tablets and large phones, 600px a 767px) */
+@media (min-width: 600px) and (max-width: 767px) {
+    .cabecalho_principal {
+        padding: 0.8rem;
+    }
+
+    .menu_hamburger {
+        font-size: 1.5rem;
+        padding-right: 0.5rem;
+        display: block;
+    }
+
+    .menu_navegacao {
+        display: none;
+    }
+
+    .menu_navegacao.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background: var(--fundo-escuro);
+        padding: 0.8rem 0;
+    }
+
+    .menu_navegacao ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu_navegacao li {
+        margin: 0.4rem 0;
+    }
+
+    .logo_img {
+        max-height: 38px;
+    }
+
+    section {
+        padding: 4.5rem 1.2rem 2.5rem;
+    }
+
+    #informações_desenvolvimento,
+    #faq {
+        padding-top: 5.5rem;
+    }
+
+    .grade {
+        grid-template-columns: 1fr;
+        max-width: 800px;
+    }
+
+    .cartao {
+        padding: 1.6rem;
+    }
+
+    .contato_info {
+        grid-template-columns: 1fr;
+    }
+}
