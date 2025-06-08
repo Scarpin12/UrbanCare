@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objetivo - Comunicação Emergente - Global Solution FIAP</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css/desktop.css">
+  <link rel="stylesheet" href="style.css/tablet.css" media="(max-width: 1024px)">
+  <link rel="stylesheet" href="style.css/mobile.css" media="(max-width: 768px)">
+</head>
+<body>
+  <header class="cabecalho_principal">
+    <div class="logo">
+      <img src="imagens/UrbanCare.png" alt="Comunicação Emergente Logo" class="logo_img">
+    </div>
+    <button class="menu_hamburger" aria-label="Abrir Menu">☰</button>
+    <nav class="menu_navegacao">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="objetivo.html">Objetivo</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="alertas.html">Alertas</a></li>
+        <li><a href="abrigos.html">Abrigo</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="objetivo_projeto" class="objetivo_secao">
+    <h2 class="aparecer_suave">Nosso Objetivo</h2>
+    <div class="objetivo_grade">
+      <div class="objetivo_cartao aparecer_suave">
+        <img src="imagens/AlertaUrban.png" alt="Ícone representando alerta" class="objetivo_imagem" data-modal-target="#modal-alerta">
+        <h3>Alertar</h3>
+        <p>Utilizamos painéis públicos em tempo real para transmitir alertas de todos os tipos, salvando vidas com tecnologia acessível a todos, especialmente aqueles sem acesso a tecnologia.</p>
+      </div>
+      <div class="objetivo_cartao aparecer_suave">
+        <img src="imagens/alertaNecessitados.png" alt="Ícone representando proteção" class="objetivo_imagem" data-modal-target="#modal-protecao">
+        <h3>Incluir</h3>
+        <p>Guiar todas as pessoas sem acesso a celular, incluindo as em situação de vulnerabilidade, para abrigos seguros durante desastres naturais, promovendo proteção com soluções tecnológicas acessíveis.</p>
+      </div>
+      <div class="objetivo_cartao aparecer_suave">
+        <img src="imagens/AlertaTrem.png" alt="Ícone representando inclusão" class="objetivo_imagem" data-modal-target="#modal-inclusao">
+        <h3>Proteger</h3>
+        <p>Com painéis de alerta em tempo real, protegemos vidas valiosas ao direcionar todas as pessoas, com  atenção às comunidades vulneráveis sem acesso a celular, para locais seguros diante de emergências inesperadas.</p>
+      </div>
+    </div>
+  </section>
+<section id="nossos_parceiros">
+    <h2 class="aparecer_suave">Nossos Parceiros</h2>
+    <div class="parceiros_grade">
+        <a href="https://www.defesacivil.gov.br" target="_blank" class="parceiro_cartao aparecer_suave">
+            <img src="imagens/DefesaCivil-img.jpg" alt="Logo Defesa Civil" class="parceiro_imagem">
+            <h3>Defesa Civil</h3>
+            <p>Coordenação de emergências e alertas.</p>
+        </a>
+        <a href="https://www.jcdecaux.com" target="_blank" class="parceiro_cartao aparecer_suave">
+            <img src="imagens/jc-img.jpg" alt="Logo JCDecaux" class="parceiro_imagem">
+            <h3>JCDecaux</h3>
+            <p>Infraestrutura de painéis publicitários.</p>
+        </a>
+        <a href="https://www.saopaulo.sp.gov.br" target="_blank" class="parceiro_cartao aparecer_suave">
+            <img src="imagens/EstadoSpG.png" alt="Logo Governo de São Paulo" class="parceiro_imagem">
+            <h3>Governo de São Paulo</h3>
+            <p>Apoio em políticas de segurança.</p>
+        </a>
+        <a href="https://www.fiap.com.br" target="_blank" class="parceiro_cartao aparecer_suave">
+            <img src="imagens/Fiap-img.png" alt="Logo FIAP" class="parceiro_imagem">
+            <h3>FIAP</h3>
+            <p>Colaboração acadêmica e tecnológica.</p>
+        </a>
+    </div>
+</section>
+
+
+  <!-- Modais para ampliação das imagens -->
+  <div id="modal-alerta" class="modal">
+    <span class="modal-close">×</span>
+    <img src="imagens/AlertaUrban.png" alt="Ampliação do ícone de alerta" class="modal-imagem">
+  </div>
+  <div id="modal-protecao" class="modal">
+    <span class="modal-close">×</span>
+    <img src="imagens/alertaNecessitados.png" alt="Ampliação do ícone de proteção" class="modal-imagem">
+  </div>
+  <div id="modal-inclusao" class="modal">
+    <span class="modal-close">×</span>
+    <img src="imagens/AlertaTrem.png" alt="Ampliação do ícone de inclusão" class="modal-imagem">
+  </div>
+
+  <footer class="rodape">
+        <div class="info_rodape">
+        <p>© 2025 UrbanCare. Todos os direitos reservados. Conectando vidas com tecnologia acessível.</p>
+        <p>Criado com 💗 por nossa equipe dedicada a apoiar quem mais precisa.</p>
+        </div>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
