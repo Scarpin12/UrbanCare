@@ -53,9 +53,11 @@ Acesse o projeto no GitHub: [https://github.com/seu-usuario/UrbanCare] (substitu
 ## Equipe
 [UrbanCare]
 
-João Pedro Scarpin, RM565421, Turma TDSPX
-Gabriel Otavio Wince, RM 566150, Turma TDSPX
-Wesley Silva de Andrade, RM 563593, Turma TDSPX
+FIAP PAULISTA - TDSPX 1
+
+João Pedro Scarpin, RM565421
+Gabriel Otavio Wince, RM 566150
+Wesley Silva de Andrade, RM 563593
 
 
 ## Estado do Projeto
