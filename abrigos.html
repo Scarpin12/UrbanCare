@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abrigos por Perto - UrbanCare</title>
+    <link rel="stylesheet" href="style.css/desktop.css">
+    <link rel="stylesheet" href="style.css/tablet.css">
+    <link rel="stylesheet" href="style.css/mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho principal -->
+    <header class="cabecalho_principal">
+        <div class="logo">
+            <img src="imagens/UrbanCare.png" alt="Logo UrbanCare" class="logo_img">
+        </div>
+        <button class="menu_hamburger">☰</button>
+        <nav class="menu_navegacao">
+            <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="objetivo.html">Objetivo</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="alertas.html">Alertas</a></li>
+            <li><a href="abrigos.html">Abrigo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Abrigos -->
+    <section id="abrigos">
+        <h2>Abrigos por Perto</h2>
+        <div class="intro-text">
+            <p>Encontre abrigos próximos à sua localização em caso de emergências. Clique no botão para localizar.</p>
+        </div>
+        <div class="local-info" id="localInfo">
+            <h3>Abrigo Mais Próximo</h3>
+            <p id="shelterName">Nome: Carregando...</p>
+            <p id="shelterAddress">Endereço: Carregando...</p>
+            <p class="info-note" id="shelterDistance">Distância aproximada: Carregando...</p>
+            <button id="getDirectionsBtn">Traçar Rota</button>
+        </div>
+        <div class="directions" id="directions">
+            <h3>Direções</h3>
+            <p id="directionsText">Carregando...</p>
+            <p class="info-note" id="directionsNote">Tempo estimado: Carregando...</p>
+        </div>
+        <button class="btn-localizar" id="locateBtn">Localizar Abrigo</button>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="info_rodape">
+        <p>© 2025 UrbanCare. Todos os direitos reservados. Conectando vidas com tecnologia acessível.</p>
+        <p>Criado com 💗 por nossa equipe dedicada a apoiar quem mais precisa.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
