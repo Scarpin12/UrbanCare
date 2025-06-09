@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - UrbanCare</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css/desktop.css">
+    <link rel="stylesheet" href="style.css/tablet.css" media="(max-width: 1024px)">
+    <link rel="stylesheet" href="style.css/mobile.css" media="(max-width: 768px)">
+</head>
+<body>
+    <!-- Cabeçalho principal -->
+    <header class="cabecalho_principal">
+        <div class="logo">
+            <img src="imagens/UrbanCare.png" alt="Logo Defesa Civil" class="logo_img">
+        </div>
+        <button class="menu_hamburger">☰</button>
+        <nav class="menu_navegacao">
+            <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="objetivo.html">Objetivo</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="alertas.html">Alertas</a></li>
+            <li><a href="abrigos.html">Abrigo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Cadastro -->
+    <section id="cadastro-urban-care">
+        <h2>Cadastro na UrbanCare</h2>
+        <div class="grade">
+            <div class="cartao">
+                <h3>Preencha os Dados e Escolha seus Alertas</h3>
+                <form id="cadastroForm">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" name="nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="cpf">CPF</label>
+                        <input type="text" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="XXX.XXX.XXX-XX">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input type="tel" id="telefone" name="telefone" pattern="\(\d{2}\) \d{5}-\d{4}" placeholder="(XX) XXXXX-XXXX">
+                    </div>
+                    <h3>Escolha os Alertas que Deseja Receber</h3>
+                    <div class="form-group">
+                        <label><input type="checkbox" name="alertas" value="enchentes"> Alertas de Enchentes</label>
+                    </div>
+                    <div class="form-group">
+                        <label><input type="checkbox" name="alertas" value="deslizamentos"> Alertas de Deslizamentos</label>
+                    </div>
+                    <div class="form-group">
+                        <label><input type="checkbox" name="alertas" value="tempestades"> Alertas de Tempestades</label>
+                    </div>
+                    <button type="submit" class="botao_cadastro">Enviar Cadastro</button>
+                    <button type="button" onclick="window.location.href='alertas.html'" class="botao_pular">Pular Cadastro</button>
+                    <br><br>
+                    <p>Quer saber mais sobre os benefícios do cadastro? <a href="beneficios.html" class="link-redirecionamento">Descubra os Benefícios</a>.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="info_rodape">
+        <p>© 2025 UrbanCare. Todos os direitos reservados. Conectando vidas com tecnologia acessível.</p>
+        <p>Criado com 💗 por nossa equipe dedicada a apoiar quem mais precisa.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
