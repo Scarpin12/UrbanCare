@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alertas Climáticos</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css/desktop.css">
+  <link rel="stylesheet" href="style.css/tablet.css" media="(max-width: 1024px)">
+  <link rel="stylesheet" href="style.css/mobile.css" media="(max-width: 768px)">
+</head>
+<body>
+  <header class="cabecalho_principal">
+    <div class="logo">
+      <img src="imagens/UrbanCare.png" alt="Logo" class="logo_img">
+    </div>
+    <button class="menu_hamburger">☰</button>
+    <nav class="menu_navegacao">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="objetivo.html">Objetivo</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="alertas.html">Alertas</a></li>
+        <li><a href="abrigos.html">Abrigo</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="alertas_climaticos">
+    <h1>Alertas Climáticos em Tempo Real</h1>
+    <div id="mapa"></div>
+    <div class="grade" id="alertas-container">
+      <!-- Alertas serão inseridos aqui dinamicamente -->
+    </div>
+  </section>
+
+  <footer class="rodape">
+        <div class="info_rodape">
+        <p>© 2025 UrbanCare. Todos os direitos reservados. Conectando vidas com tecnologia acessível.</p>
+        <p>Criado com 💗 por nossa equipe dedicada a apoiar quem mais precisa.</p>
+        </div>
+    </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
